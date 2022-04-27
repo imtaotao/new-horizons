@@ -1,0 +1,35 @@
+{
+  "name": "new-horizons",
+  "version": "0.0.1",
+  "description": "output nice log in your horizons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write --parser typescript \"(src|dist)/**/*.(js|ts?(x))\""
+  },
+  "author": "imtaotao",
+  "keywords": [
+    "node",
+    "log",
+    "print"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtaotao/new-horizons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imtaotao/new-horizons/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

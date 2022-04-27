@@ -1,0 +1,9 @@
+node_modules/
+lib/
+.DS_Store
+.gitignore
+.npmignore
+index.html
+jest.config.js
+tsconfig.json
+yarn.lock
